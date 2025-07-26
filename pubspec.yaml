@@ -42,8 +42,11 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   path_provider: ^2.1.5
-  mockito: ^5.5.0
   bloc_test: ^10.0.0
+  data_connection_checker_tv: ^0.3.5-nullsafety
+  dartz: ^0.10.1
+  json_annotation: ^4.9.0
+
 
 dev_dependencies:
   flutter_test:
@@ -55,6 +58,9 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
+  build_runner: ^2.5.4
+  json_serializable:
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
