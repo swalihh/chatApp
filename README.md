@@ -1,6 +1,6 @@
-# chat_app
+# 📲 Flutter Chat Application
 
-A new Flutter project.
+A  chat application built using Flutter and TDD (Test-Driven Development) principles. This project uses **WebSocket** for real-time communication and a modular architecture with separate widgets and BLoC for state management.
 
 ## Getting Started
 
