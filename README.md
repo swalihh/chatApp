@@ -11,6 +11,7 @@ A  chat application built using Flutter and TDD (Test-Driven Development) princi
 - Unit and widget tests written using `flutter_test`..
 
 - 🌐 API & WebSocket
+
 API Endpoint for Users: https://mocki.io/v1/e91cbee6-6087-455a-9d88-8c5b28805404
 
 WebSocket Endpoint:  wss://echo.websocket.events
