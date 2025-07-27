@@ -2,9 +2,20 @@
 
 A  chat application built using Flutter and TDD (Test-Driven Development) principles. This project uses **WebSocket** for real-time communication and a modular architecture with separate widgets and BLoC for state management.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Real-time messaging using WebSocket.
+- Local storage for users and chat using Hive.
+- BLoC pattern for scalable state management.
+- Modular folder structure based on clean architecture.
+- Unit and widget tests written using `flutter_test`..
+
+- 🌐 API & WebSocket
+API Endpoint for Users
+https://mocki.io/v1/e91cbee6-6087-455a-9d88-8c5b28805404
+
+WebSocket Endpoint
+wss://echo.websocket.events
 
 A few resources to get you started if this is your first Flutter project:
 
