@@ -1,6 +1,7 @@
-import 'package:chat_app/core/error/failures.dart';
-import 'package:chat_app/features/chat/data/models/users_listing_model.dart';
 import 'package:dartz/dartz.dart';
+
+import '../../../../core/error/failures.dart';
+import '../../data/models/users_listing_model.dart';
 
 abstract class UserRepository {
   Future<Either<Failure, UsersListingModel>> getAllUsers();

@@ -5,7 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 class MockAppHeader extends StatelessWidget {
   final bool isConnected;
   
-  const MockAppHeader({Key? key, required this.isConnected}) : super(key: key);
+  const MockAppHeader({super.key, required this.isConnected});
   
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class MockChatAvatar extends StatelessWidget {
   final String avatar;
   final String name;
   
-  const MockChatAvatar({Key? key, required this.avatar, required this.name}) : super(key: key);
+  const MockChatAvatar({super.key, required this.avatar, required this.name});
   
   @override
   Widget build(BuildContext context) {

@@ -7,7 +7,7 @@ void main() {
     await tester.pumpWidget(
       const MaterialApp(
         home: Scaffold(
-          body: AppHeader(isConnected: true),
+          body: AppHeader(),
         ),
       ),
     );
