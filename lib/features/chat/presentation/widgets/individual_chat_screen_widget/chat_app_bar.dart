@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 import '../chat_screen_widgets/chat_avatar.dart';
 import '../chat_screen_widgets/connection_status.dart';
@@ -23,7 +24,7 @@ class ChatAppBar extends StatelessWidget implements PreferredSizeWidget {
       elevation: 1,
       leading: IconButton(
         icon: Icon(Icons.arrow_back, color: Colors.white),
-        onPressed: () => Navigator.pop(context),
+        onPressed: () => context.go('/'),
       ),
       title: Row(
         children: [

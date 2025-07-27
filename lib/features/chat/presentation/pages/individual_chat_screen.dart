@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-
 import '../../../../core/network/websocket_service.dart';
 import '../../../../injection_container.dart';
 import '../../data/repositories/message_repository_impl.dart';
@@ -11,7 +10,6 @@ import '../bloc/chat/chat_bloc.dart';
 import '../widgets/individual_chat_screen_widget/chat_app_bar.dart';
 import '../widgets/individual_chat_screen_widget/chat_input_area.dart';
 import '../widgets/individual_chat_screen_widget/chat_messages_list.dart';
-import '../widgets/individual_chat_screen_widget/message.dart';
 
 class IndividualChatScreen extends StatefulWidget {
   final String contactName;

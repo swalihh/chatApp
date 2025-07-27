@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'message.dart';
-import 'tick_icon.dart';
 
 class MessageFooter extends StatelessWidget {
   final String time;
@@ -30,10 +29,7 @@ class MessageFooter extends StatelessWidget {
             fontSize: 11,
           ),
         ),
-        if (isSent && tickStatus != TickStatus.none) ...[
-          SizedBox(width: 4),
-          TickIcon(tickStatus: tickStatus),
-        ],
+
       ],
     );
   }

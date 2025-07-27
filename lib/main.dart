@@ -1,6 +1,6 @@
+import 'package:chat_app/core/router/router_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'features/chat/presentation/pages/chat_screen.dart';
 import 'features/chat/presentation/bloc/bloc/fetch_all_users_bloc.dart';
 import 'injection_container.dart';
 
@@ -15,12 +15,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Chat App',
-      home: BlocProvider(
-        create: (_) => locator<UserBloc>()..add(const GetAllUsersEvent()),
-        child: const ChatScreen(),
+    return BlocProvider(
+      create: (_) => locator<UserBloc>()..add(const GetAllUsersEvent()),
+      child: MaterialApp.router(
+        debugShowCheckedModeBanner: false,
+        title: 'Chat App',
+        routerConfig: router,
       ),
     );
   }
