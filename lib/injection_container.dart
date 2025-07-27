@@ -7,7 +7,7 @@ import 'package:data_connection_checker_tv/data_connection_checker.dart';
 import 'core/local/local_storage.dart';
 import 'core/network/network_info.dart';
 import 'features/chat/data/datasources/chat_local_data_source.dart';
-import 'features/chat/data/datasources/number_trivia_remote_data_source.dart';
+import 'features/chat/data/datasources/chat_remote_data_source.dart';
 import 'features/chat/data/models/chat_message.dart';
 import 'features/chat/data/models/users_listing_model.dart';
 import 'features/chat/data/repositories/user_repository_impl.dart';

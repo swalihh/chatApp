@@ -37,4 +37,3 @@ class ConnectionBloc extends Bloc<ConnectionEvent, ConnectionsState> {
     return super.close();
   }
 }
-
