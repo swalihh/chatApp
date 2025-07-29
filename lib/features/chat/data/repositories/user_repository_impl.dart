@@ -5,7 +5,7 @@ import '../../../../core/error/failures.dart';
 import '../../../../core/network/network_info.dart';
 import '../../domain/repositories/user_repository.dart';
 import '../datasources/chat_local_data_source.dart';
-import '../datasources/number_trivia_remote_data_source.dart';
+import '../datasources/chat_remote_data_source.dart';
 import '../models/users_listing_model.dart';
 
 typedef Future<UsersListingModel> _UsersGetter();

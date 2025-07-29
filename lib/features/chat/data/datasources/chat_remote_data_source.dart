@@ -6,8 +6,7 @@ import '../../../../core/error/exceptions.dart';
 import '../models/users_listing_model.dart';
 
 abstract class ChatRemoteDataSource {
-  /// Calls the http://numbersapi.com/{number} endpoint.
-  ///
+
   /// Throws a [ServerException] for all error codes.
   Future<UsersListingModel> getAllUsers();
 }

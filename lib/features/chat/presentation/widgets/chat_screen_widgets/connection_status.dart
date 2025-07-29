@@ -17,7 +17,7 @@ class ConnectionStatus extends StatelessWidget {
     return Row(
       children: [
         Text(
-          isConnected ? 'Active' : 'Disconnected from server',
+          isConnected ? 'Connected' : 'Disconnected',
           style: TextStyle(fontSize: 14, color: const Color.fromARGB(255, 255, 255, 255)),
         ),
         const SizedBox(width: 8),
